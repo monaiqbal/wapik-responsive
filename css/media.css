@@ -1,0 +1,121 @@
+
+@media (min-width: 991px) and (max-width: 1200px){
+    .price-one p{
+        padding: 0%;
+    }
+    .input-icons i {
+    
+        position: absolute;
+        right: 15%;
+          
+        }
+        .font {
+            margin-left: 60px;
+       }
+}
+
+
+@media (min-width: 0px) and (max-width: 991px) {
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        display: inline-block;
+        font-size: 14px;
+    }
+    .navbar-light .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .left-logo{
+        width:20%;
+        float: left;
+    }
+    .right-logo{
+        width:30%;
+        float: left;
+       margin-left: 0px;
+    }
+ }
+ @media (min-width: 577px) and (max-width: 768px){
+    .price-one{
+        margin-top: 20px;
+    }
+    .font {
+          margin-top: -30px;
+     }
+     .input-icons i {
+    
+        position: absolute;
+        right: 20%;
+          
+        }
+        .btn-down{
+            margin-left: 0%;
+        }
+        .gap{
+            margin-left: 50px;
+        }
+        .hand{
+            display: none;
+        }
+ }
+ @media (min-width: 0px) and (max-width: 576px){
+    .right-logo{
+        width:30%;
+        margin-left: -160px;
+    }
+     .hand{
+         display: none;
+     }
+     .image-women {
+        
+        margin-left: 135px;
+     }
+     .image-map {
+        width: 80%;
+     }
+     .price-one{
+         margin: auto;
+     }
+     .wapik-one{
+         margin: auto;
+         text-align: center;
+     }
+     .font {
+        display: flex;
+        margin-left: 314px;
+        margin-top: -28px;
+     }
+     .company-one{
+         text-align: center;
+     }
+     .company-two{
+        text-align: center;
+    }
+    
+   
+ }
+ @media (min-width: 0px) and (max-width: 426px){
+    .right-logo{
+        width:30%;
+        margin-left: -100px;
+    }
+    .image-women {
+        
+        margin-left: 20px;
+     }
+     .btn-down{
+         margin-left: 0%;
+     }
+     .price-one h4 {
+       
+        font-size: 17px;}
+        .price-one h1 {
+       
+            font-size: 36px;}
+     .font {
+        
+        margin-left: 0px;
+        margin-top: 10px;
+     }
+ }
